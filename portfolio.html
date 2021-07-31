@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="body">
+    <!---header-->
+    <header class="header">
+      <div class="container header-container">
+        <nav class="navigation">
+          <a class="logo" href="./index.html" lang="en"
+            ><span class="logo-part">Web</span>Studio
+          </a>
+          <ul class="menu list">
+            <li class="menu-item">
+              <a class="menu-link" href="./index.html"> Студия </a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link current-link" href="./portfolio.html">
+                Портфолио
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="head-info-list list">
+          <li class="head-info-item">
+            <a class="head-mail-link link" href="mailto:info@devstudio.com">
+              <svg class="head-mail-link-icon" width="16" height="12">
+                <use href="./images/sprite.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="head-info-item">
+            <a class="head-tel-link link" href="tel:+380961111111">
+              <svg class="head-tel-link-icon" width="10" height="16">
+                <use href="./images/sprite.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="main-content">
+        <ul class="tabs-list list container">
+          <li class="tabs-item">
+            <button class="filter-btn" type="button">Все</button>
+          </li>
+          <li class="tabs-item">
+            <button class="filter-btn" type="button">Веб-сайты</button>
+          </li>
+          <li class="tabs-item">
+            <button class="filter-btn" type="button">Приложения</button>
+          </li>
+          <li class="tabs-item">
+            <button class="filter-btn" type="button">Дизайн</button>
+          </li>
+          <li class="tabs-item">
+            <button class="filter-btn" type="button">Маркетинг</button>
+          </li>
+        </ul>
+        <ul class="projects-list list container">
+          <li class="project-item">
+            <div class="project-img-wrapper">
+              <img src="./images/our-projects/technokryak.jpg" alt="ноутбук" />
+              <p class="project-overlay">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </p>
+            </div>
+            <div class="project-details">
+              <h3 class="project-title">Технокряк</h3>
+              <p class="project-category">Веб-сайт</p>
+            </div>
+          </li>
+          <li class="project-item">
+            <img
+              src="./images/our-projects/poster.jpg"
+              alt="Постер New Orlean vs Golden Star"
+            />
+            <div class="project-details">
+              <h3 class="project-title">Постер New Orlean vs Golden Star</h3>
+              <p class="project-category">Дизайн</p>
+            </div>
+          </li>
+          <li class="project-item">
+            <img src="./images/our-projects/seafood.jpg" alt="постер с рыбой" />
+            <div class="project-details">
+              <h3 class="project-title">Ресторан Seafood</h3>
+              <p class="project-category">Приложение</p>
+            </div>
+          </li>
+          <li class="project-item">
+            <img
+              src="./images/our-projects/project-prime.jpg"
+              alt=" наушники "
+            />
+            <div class="project-details">
+              <h3 class="project-title">Проект Prime</h3>
+              <p class="project-category">Маркетинг</p>
+            </div>
+          </li>
+          <li class="project-item">
+            <img
+              src="./images/our-projects/project-boxes.jpg"
+              alt=" коробки "
+            />
+            <div class="project-details">
+              <h3 class="project-title">Проект Boxes</h3>
+              <p class="project-category">Приложение</p>
+            </div>
+          </li>
+          <li class="project-item">
+            <img
+              src="./images/our-projects/inspiration-has-no-borders.jpg"
+              alt=" монитор "
+            />
+            <div class="project-details">
+              <h3 class="project-title">Inspiration has no Borders</h3>
+              <p class="project-category">Веб-сайт</p>
+            </div>
+          </li>
+          <li class="project-item">
+            <img
+              src="./images/our-projects/limited-edition.jpg"
+              alt=" открытая книга "
+            />
+            <div class="project-details">
+              <h3 class="project-title">Издание Limited Edition</h3>
+              <p class="project-category">Дизайн</p>
+            </div>
+          </li>
+          <li class="project-item">
+            <img src="./images/our-projects/project-lab.jpg" alt=" этикетка " />
+            <div class="project-details">
+              <h3 class="project-title">Проект LAB</h3>
+              <p class="project-category">Маркетинг</p>
+            </div>
+          </li>
+          <li class="project-item">
+            <img
+              src="./images/our-projects/growing-business.jpg"
+              alt="человек печатает на ноутбуке"
+            />
+            <div class="project-details">
+              <h3 class="project-title">Growing Business</h3>
+              <p class="project-category">Приложение</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-content container">
+        <div class="footer-adress-wrapper">
+          <a class="footer-logo logo" href="./index.html" lang="en">
+            <span class="logo-part">Web</span>Studio
+          </a>
+          <address>
+            <ul class="footer-list list">
+              <li class="footer-item">
+                <a
+                  class="footer-adress-link link"
+                  href="https://goo.gl/maps/RriFzFvJcHyVF99A9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  г. Киев, пр-т Леси Украинки, 26
+                </a>
+              </li>
+              <li class="footer-item">
+                <a
+                  class="footer-mail-link link"
+                  href="mailto:info@devstudio.com"
+                >
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-tel-link link" href="tel:+380961111111">
+                  +38 096 111 11 11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social-wrapper">
+          <p class="footer-tagline">Присоединяйтесь</p>
+          <ul class="footer-social-links-list list">
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-link-icon">
+                  <use href="./images/sprite.svg#icon-inst-icon-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-link-icon">
+                  <use href="./images/sprite.svg#icon-twit-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-link-icon">
+                  <use href="./images/sprite.svg#icon-facebook-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-link-icon">
+                  <use href="./images/sprite.svg#icon-in-icon"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-subscription">
+          <p class="footer-tagline">Подпишитесь на рассылку</p>
+          <form class="subscription-form">
+            <input
+              type="email"
+              name="email"
+              class="subscription-email"
+              placeholder="E-mail"
+              required
+            />
+            <button type="submit" class="subscription-btn">
+              Подписаться
+              <svg class="email-icon" width="24px" height="24px">
+                <use href="./images/sprite.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
