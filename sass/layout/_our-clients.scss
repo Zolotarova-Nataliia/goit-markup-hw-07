@@ -1,26 +1,16 @@
-.client-list-link {
-  fill: var(--icon-color);
-}
-
-.client-list-link:hover,
-.client-list-link:focus {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
 .our-clients-section {
   display: block;
   align-items: center;
   padding: 94px 0;
 }
 
-.client-list {
+.clients {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.client-list-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,4 +21,11 @@
   box-sizing: border-box;
   border-radius: 4px;
   transition: fill var(--animation);
+  fill: var(--icon-color);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }

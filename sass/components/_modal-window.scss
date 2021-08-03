@@ -26,9 +26,9 @@
   justify-content: center;
   align-items: center;
   transition: fill var(--animation);
-}
 
-.close-button:focus,
-.close-button:hover {
-  fill: var(--accent-color);
+  &:focus,
+  &:hover {
+    fill: var(--accent-color);
+  }
 }

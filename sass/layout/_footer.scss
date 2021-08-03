@@ -3,21 +3,20 @@
   padding: 60px 15px;
 }
 
-.footer-content {
+.footer__content {
   display: flex;
 }
 
-.footer-adress-wrapper {
+.footer__adresswrapper {
   margin-right: 70px;
 }
 
-.footer-social-wrapper {
+.footer__socialwrapper {
   margin-top: 12px;
 }
 
-.footer-tagline {
+.footer__tagline {
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -26,35 +25,29 @@
   color: #ffffff;
 }
 
-.footer-social-links-list {
+.footer__list {
   margin-top: 20px;
 }
 
-.footer-social-link {
+.footer__link {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-social-item:not(:last-child) {
-  margin-right: 10px;
+.footer__logo {
+  color: #fff;
 }
 
-.footer-social-link-icon {
-  fill: #fff;
-}
-
-.footer-logo {
-  color: var(--secondary-color);
-}
-
-.footer-list {
+.footer__list {
   margin-top: 20px;
 }
 
-.footer-item:not(:last-child) {
-  margin-bottom: 9px;
+.footer__list--item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
-.footer-adress-link {
+.footer__adress {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
@@ -62,8 +55,8 @@
   color: var(--secondary-color);
 }
 
-.footer-mail-link,
-.footer-tel-link {
+.footer__mail,
+.footer__tel {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
@@ -71,28 +64,18 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-subscription {
-  margin-left: 93px;
+.footer__subscription {
+  margin-left: auto;
   margin-top: 12px;
 }
 
-.footer-tagline {
-  font-family: var(--main-font);
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.subscription-form {
+.footer__form {
   display: flex;
   height: 50px;
   margin-top: 20px;
 }
 
-.subscription-email {
+.footer__email {
   width: 358px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -105,8 +88,23 @@
   letter-spacing: 0.03em;
   color: #fff;
   border-radius: 4px;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
-.subscription-email::placeholder {
-  color: rgba(255, 255, 255, 0.6);
+.footer__btn {
+  margin-left: 12px;
+}
+
+.footer__social {
+  margin-top: 20px;
+
+  .social__link-link {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .social__icon {
+    fill: #fff;
+  }
 }

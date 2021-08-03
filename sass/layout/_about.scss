@@ -2,16 +2,18 @@
   padding: 94px 0;
 }
 
-.upper-section-list {
+.upper-section {
   display: flex;
   justify-content: space-between;
 }
 
-.upper-section-item:not(:last-child) {
-  margin-right: 30px;
+.upper-section__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.icon-wrapper {
+.upper-section__icon-wrapper {
   display: flex;
   background-color: #f5f4fa;
   width: 270px;
@@ -23,16 +25,16 @@
   border-radius: 4px;
 }
 
-.down-section-list {
+.down-section {
   display: flex;
   justify-content: space-between;
 }
 
-.down-section-item {
+.down-section__item {
   position: relative;
 }
 
-.down-section-desc {
+.down-section__desc {
   position: absolute;
   left: 0;
   bottom: 0;
